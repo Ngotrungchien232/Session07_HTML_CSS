@@ -1,0 +1,94 @@
+/* Thiết lập font và căn giữa nội dung */
+body {
+  /* dùng để căn giữa theo chiều ngang */
+  text-align: center;
+  background-color: #f8f8ff;
+  /* tạo khoảng cách giữa nội dung và mép trang */
+  padding: 20px;
+}
+
+/* Container chứa nội dung */
+.container {
+  /* giới hạn chiều rộng tối đa */
+  max-width: 600px;
+  margin: auto;
+  background-color: rgb(214, 221, 221);
+  /* khoảng cách giữa nội dung và mép trang */
+  padding: 30px;
+  /* bo tròn góc hộp */
+  border-radius: 10px;
+  /* hiệu ứng đổ bóng  */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề chính */
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #120c42;
+  line-height: 1.4;
+}
+
+/* Danh sách lợi ích */
+.benefits {
+  /* loại bỏ dấu chấm mặc định của danh sách  */
+  list-style: none;
+  /* khoảng cách giưã nội dung và mép trang */
+  padding: 0;
+  text-align: left;
+  font-size: 18px;
+  color: #333;
+  margin: 20px 0;
+}
+
+.benefits li {
+  /* biến icon thành một hàng giúp icon và chữ cạnh nhau  */
+  display: flex;
+  align-items: center;
+  /* khoảng cách giữa icon và chữ  */
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+/* Dấu tích Font Awesome */
+.benefits i {
+  color: #d32f2f; /* Màu đỏ */
+  font-size: 22px;
+}
+
+/* Nút bấm */
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 5px;
+  border: none;
+}
+
+/* Nút đỏ */
+.btn.red {
+  background-color: #c62828;
+  color: white;
+}
+
+.btn.red:hover {
+  background-color: #a01818;
+}
+
+/* Nút viền */
+.btn.outline {
+  background: white;
+  border: 2px solid #120c42;
+  color: #120c42;
+}
+
+.btn.outline:hover {
+  background: #120c42;
+  color: white;
+}

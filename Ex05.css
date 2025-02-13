@@ -1,0 +1,18 @@
+.accordion-button {
+  background-color: #f8f9fa; /* Màu nền nhạt */
+  color: #333; /* Màu chữ */
+  font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #cfe2ff; /* Khi mở, nền xanh nhạt */
+  color: #0a58ca; /* Màu chữ xanh */
+}
+
+.accordion-body {
+  font-size: 16px;
+  color: #555;
+}
+span {
+  color: darkmagenta;
+}

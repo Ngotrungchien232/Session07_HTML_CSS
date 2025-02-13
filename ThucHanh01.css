@@ -1,0 +1,36 @@
+.box-model {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  /* tiếp theo mình sử dụng bộ thuộc tính border */
+  /* ngoài ra chúng ta có thể tinh chỉnh các đặc điểm của cái border này  */
+  /* thường thì chúng ta sẽ chỉ sử dụng cái solid là chủ yếu  */
+  border: 10px solid black;
+  /* thuộc tính border-radius này sẽ có tác dụng làm bo viền bảng  */
+  border-radius: 50px;
+  /* thuộc tính padding là khoảng cách từ conten đến border */
+  /* padding: 20px; */
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 10px;
+  /* margin là khoảng cách các phần từ đến các vị trí còn lại */
+  margin: 20px;
+  /* có thể hiểu là khoảng cách từ lề của trang văn bản đến các phần tử ta đang chỉnh sửa */
+  /* thuộc tính display */
+  display: inline;
+}
+
+/* thuộc tính inline- element */
+.inline-element {
+  width: 300px;
+  height: 300px;
+  background-color: brown;
+  color: aqua;
+  border: 10px solid black;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 10px;
+  display: inline-block;
+}
